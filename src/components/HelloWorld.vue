@@ -16,7 +16,7 @@
     </form>
 
     <div class="text-left" v-if="items.length">
-      <h3>Item To Do</h3>
+      <h3>Things To Do</h3>
       <table class="table">
         <tbody>
           <tr v-for="(item, index) in items" :key="item">
